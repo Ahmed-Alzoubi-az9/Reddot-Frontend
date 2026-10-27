@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign-up-2</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="../css/main-design.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../assets/css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+
+</head>
+
+<body class="bg-black">
+
+    
+
+
+    <!----------------Home------------------->
+
+    <section class="text-light text-center text-md-center  position-relative" id="sign-in-section-home">
+      <div class="blurred-circles-6"></div> <!-- Blurred background -->
+      <div class="container-fluid ">
+
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light  fixed-top ">
+          <div class="container-fluid">
+            <a class="navbar-brand ps-5 pb-4 hover-navbar" href="main-design.html">
+              <img src="../Resources/img/RedDotLogo.png" alt="Red Dot Logo">
+            </a>
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse ps-5 pt-2" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto mb-lg-0 ps-5">
+                <li class="nav-item ">
+                  <a class="nav-link  text-light small px-3 hover-navbar" href="main-design.html">
+                    Home
+                  </a>
+                 
+                </li>
+                
+                <li class="nav-item ">
+                  <a class="nav-link  text-white small px-3 hover-navbar" href="about-us.html">
+                    About Us
+                  </a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link  small text-white px-3 hover-navbar" href="Services.html">
+                    Services
+                  </a>
+                 
+                </li>
+               
+                <li class="nav-item">
+                  <a class="nav-link  text-light small px-3 hover-navbar" href="contact-us.html">
+                    Contact Us
+                  </a>
+                 
+                </li>
+
+                <li class="nav-item ">
+                  <a class="nav-link  text-light small px-3 hover-navbar" href="blogs.html">
+                   Blogs
+                  </a>
+                 
+                </li>
+              </ul>
+              <form class="d-flex ms-auto">
+                <button class="btn btn-outline rounded-pill px-3 text-light d-none d-md-block mx-3 sign-btn no-outline" type="button" onclick="window.location.href='sign-in.html'">
+                  <span class="small">Log In</span>
+                </button>
+                <button class="btn btn-outline rounded-pill px-3 text-light d-none d-md-block sign-btn no-outline me-5" type="button" onclick="window.location.href='sign-up.html'">
+                  <span class="small">Sign Up</span>
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+
+          
+    </section>
+    
+    
+    <!----------------Sgin In------------------->
+    <section class="pt-5 bg-mix-4 pb-5 position-relative" id="sign-in-section-log">
+      <div class="blurred-circles-6"></div> <!-- Blurred background -->
+
+        <div class="container-fluid pt-5">
+            <div class="row position-relative pt-5">
+                <!-- Graphic Section -->
+                <div class="col-lg-6 col-md-6 d-none d-lg-block pt-5 position-relative d-flex justify-content-center align-items-center">
+                  <!-- Circle Image (Behind) -->
+                  <img src="../Resources/img/circle-sign-2.png" class="img-fluid position-absolute top-50 start-50 translate-middle" alt="Circle Image" style="z-index: 1;">
+                
+                  <!-- Sign-in Image (In Front) -->
+                  <img src="../Resources/img/sign-in-img-2.png" class="img-fluid position-absolute top-50 start-50 translate-middle px-3" alt="Sign In Image" style="z-index: 2; ">
+                </div>
+                
+                
+                
+                <!-- Sign-in form -->
+                <div class="col-lg-6 justify-content-center align-items-center pt-4 pe-5 " id="Sign-in-form">
+                    <div class="card-color p-4" style="border-radius: 4%;">
+                        <h3 class="text-center text-white py-5">Sign Up</h3>
+                
+                        <form>
+                            <div class="form-group mb-3 px-4">
+                                <div class="input-group bg-none">
+                                    <input type="email" class="form-control p-3 bg-transparent color-border-gray no-outline color-sign ps-5" id="email" placeholder="Email Address" style="border-radius: 15px;  border-width: 1px;">
+                                    <img src="../Resources/img/Message-2.png" class="ps-2 position-absolute top-50 start-0 translate-middle-y" alt="Message Icon">
+                                </div>
+                            </div>
+                
+                            
+                
+                            <div class="form-group mb-3 px-4">
+                                <div class="input-group">
+                                    <input type="password" class="form-control p-3 bg-transparent color-border-gray no-outline color-sign ps-5" id="password" placeholder="Password" style="border-radius: 15px;">
+                                    <img src="../Resources/img/Unlock.png" class="ps-2 position-absolute top-50 start-0 translate-middle-y" alt="Lock Icon">
+                                    <i class="fa fa-eye-slash position-absolute top-50 end-0 translate-middle-y pe-3" id="togglePassword" style="cursor: pointer;"></i>
+                                </div>
+                            </div>
+                
+                            <div class="form-group mb-3 px-4">
+                                <div class="input-group">
+                                    <input type="password" class="form-control p-3 bg-transparent color-border-gray no-outline color-sign ps-5" id="confirmPassword" placeholder="Confirm Password" style="border-radius: 15px;">
+                                    <img src="../Resources/img/Unlock.png" class="ps-2 position-absolute top-50 start-0 translate-middle-y" alt="Lock Icon">
+                                    <i class="fa fa-eye-slash position-absolute top-50 end-0 translate-middle-y pe-3" id="togglePassword" style="cursor: pointer;"></i>
+
+                                  </div>
+                            </div>
+                
+
+                            <div class="form-group mb-3 px-4">
+                              <div class="input-group">
+                                  <!-- Fixed country code prefix -->
+                                  <span class="input-group-text p-3 bg-transparent color-border-gray no-outline color-sign ps-5 color-sign" style="border-radius: 15px 0 0 15px;">+962</span>
+                                  <!-- Phone number input field -->
+                                  <input type="tel" class="form-control p-3 bg-transparent color-border-gray no-outline color-sign" placeholder="Phone Number" style="border-radius: 0 15px 15px 0;">
+                                  <img src="../Resources/img/Phone-2.png" class="ps-2 position-absolute top-50 start-0 translate-middle-y" alt="Phone Icon">
+                              </div>
+                          </div>
+                            <div class="form-group d-flex justify-content-between align-items-center">
+                                <div class="form-check ps-5 pt-2">
+                                    <input type="checkbox" class="form-check-input bg-transparent color-border no-outline" id="rememberMe">
+                                    <label class="form-check-label color-sign" for="rememberMe">Remember Me</label>
+                                </div>
+                                <a href="contact-us.html" class="pink-text text-decoration-none pt-2 hover-white pe-5">Forget Password?</a>
+                            </div>
+                
+                            <div class="form-group pt-3 d-flex justify-content-center pb-4 sign-in-btn">
+                                <button type="submit" class="btn bg-pink text-white hover-sign-btn py-3 mt-5 rounded-pill w-50">Sign In</button>
+                            </div>
+                
+                            <div class="text-center">
+                                <span class="color-sign">Already Have An Account? </span><a href="sign-in.html" class="pink-text text-decoration-none hover-white">Sign In</a><br>
+                                <span class="color-sign"> Or Continue With</span>
+                            </div>
+                
+                            <div class="form-group d-flex justify-content-center pt-3 pb-4">
+                              <a href="#" class="btn me-1 sign-btn" style="border-radius: 50%; padding: 10px; background-color: #2c2c2c;">
+                                  <img src="../Resources/img/Google - normal.png" alt="">
+                              </a>
+                              <a href="#" class="btn ms-2 sign-btn" style="border-radius: 50%; padding: 10px; background-color: #2c2c2c;">
+                                  <img src="../Resources/img/Facebook - normal.png" alt="">
+                              </a>
+                          </div>
+                        </form>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+      
+
+    
+    <!----------------Footer------------------->
+    <section id="footer-section" class="position-relative " style="overflow: hidden;">
+      <div class="container-fluid p-5">
+        <div class="row pb-5 d-flex align-items-center pt-5">
+          <!-- Logo Column -->
+          <div class="col-md-3 d-flex align-items-center" id="logo">
+            <a href="main-design.html" class="text-decoration-none">
+                <h1 class="text-start fw-bolder text-white mb-0 hover-navbar">LOGO</h1>
+            </a>
+        </div>
+          
+          <!-- Navigation Links Column -->
+          <div class="col-md-6 text-center d-flex justify-content-center">
+            <a href="faq.html" class="text-white small text-decoration-none px-4 hover-navbar">Resources</a>
+            <a href="Services.html" class="text-white small text-decoration-none px-4 hover-navbar">Solution</a>
+            <a href="Services.html" class="text-white small text-decoration-none px-4 hover-navbar">Products</a>
+            <a href="Services.html" class="text-white small text-decoration-none px-4 hover-navbar">Platform</a>
+          </div>
+          
+          <!-- Social Media Icons Column -->
+          <div class="col-md-3 d-flex justify-content-end align-items-center" id="social-media">
+            <a href="#" class="text-light mx-2 small social-icon"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-light mx-2 small social-icon"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-light mx-2 small social-icon"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="text-light mx-2 small social-icon"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        
+        <hr class="color-blog-text ">
+        
+        <div class="row pt-3">
+          <div class="col-md-12 d-flex justify-content-center align-items-center">
+            <p class="mb-0 small color-blog-text px-3 text-decoration-none">&copy; 2023 SLAB, All rights reserved</p>
+            <a href="policy.html" class="color-blog-text px-3 text-decoration-none small hover-white">Privacy Policy</a>
+            <a href="terms.html" class="color-blog-text px-3 text-decoration-none small hover-white">Terms of Service</a>
+            <a href="policy.html" class="color-blog-text px-3 text-decoration-none small hover-white">Cookies Settings</a>
+          </div>
+        </div>
+        <img src="../Resources/img/footer-blur.png" class="position-absolute bottom-0 start-50 d-none d-md-block" style="filter: blur(100px); z-index: -1; height: 55px; width:1100px; transform: translateX(-50%);">
+
+      </div>
+      
+</section>
+   
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+    <script src="../js/main-design.js"></script>
+    
+</body>
+</html>
