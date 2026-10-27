@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs-Details</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../css/main-design.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../assets/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+
+</head>
+
+<body class="bg-black">
+
+
+
+
+    <!----------------Home------------------->
+
+    <section class="text-light text-center text-md-center position-relative" style="overflow: hidden;"
+        id="home-section-20">
+        <div class="blurred-circles-2"></div> <!-- Added blurred-circles-4 for bottom-center placement -->
+
+        <div class="container-fluid p-5">
+            <nav id="navbar" class="navbar navbar-expand-lg navbar-light  fixed-top ">
+                <div class="container-fluid">
+                    <a class="navbar-brand ps-5 pb-4 hover-navbar" href="main-design.html">
+                        <img src="../Resources/img/RedDotLogo.png" alt="Red Dot Logo">
+                    </a>
+                    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse ps-5 pt-2" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-lg-0 ps-5">
+                            <li class="nav-item ">
+                                <a class="nav-link  text-light small px-3 hover-navbar" href="main-design.html">
+                                    Home
+                                </a>
+
+                            </li>
+
+                            <li class="nav-item ">
+                                <a class="nav-link  text-white small px-3 hover-navbar" href="about-us.html">
+                                    About Us
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link  small text-white px-3 hover-navbar" href="Services.html">
+                                    Services
+                                </a>
+
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link  text-light small px-3 hover-navbar" href="contact-us.html">
+                                    Contact Us
+                                </a>
+
+                            </li>
+
+                            <li class="nav-item ">
+                                <a class="nav-link  text-light small px-3 hover-navbar" href="blogs.html">
+                                    Blogs
+                                </a>
+
+                            </li>
+                        </ul>
+                        <form class="d-flex ms-auto">
+                            <button
+                                class="btn btn-outline rounded-pill px-3 text-light d-none d-md-block mx-3 sign-btn no-outline"
+                                type="button" onclick="window.location.href='sign-in.html'">
+                                <span class="small">Log In</span>
+                            </button>
+                            <button
+                                class="btn btn-outline rounded-pill px-3 text-light d-none d-md-block sign-btn no-outline me-5"
+                                type="button" onclick="window.location.href='sign-up.html'">
+                                <span class="small">Sign Up</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="container-fluid p-5">
+            <div class="row">
+                <!-- First Column -->
+                <div class="col-md-7">
+                    <h1 class="text-white display-3 text-start">Power of Authenticity in Influencer Marketing.</h1>
+                    <!-- Full width image aligned to the start -->
+                    <img src="../Resources/img/post.png" class="img-fluid mt-3 mb-4 align-self-start" alt="News Image">
+                    <!-- Paragraph content -->
+                    <p class="color-blog-h fs-5 text-start">
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                        printer took a galley of type and scrambled it to make a type specimen book. It has survived not
+                        only five centuries, but also the leap into electronic typesetting, remaining essentially
+                        unchanged.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                        printer took a galley of type and scrambled it to make a type specimen book. It has survived not
+                        only five centuries, but also the leap into electronic typesetting, remaining essentially
+                        unchanged.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                        printer took a galley of type and scrambled it to make a type specimen book. It has survived not
+                        only five centuries, but also the leap into electronic typesetting, remaining essentially
+                        unchanged.
+                    </p>
+                </div>
+
+                <!-- Second Column -->
+                <div class="col-md-5 d-flex flex-column align-items-start">
+                    <!-- Search box with search icon -->
+                    <form class="w-100 ps-5 ms-auto mb-3 d-none d-lg-block">
+                        <div class="input-group">
+                            <input type="text"
+                                class="form-control p-3 no-background color-blog-h none-border no-outline"
+                                placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-secondary no-outline" type="button">
+                                <i class="bi bi-search"></i> <!-- Bootstrap's search icon -->
+                            </button>
+                        </div>
+                    </form>
+
+                    <!-- Recent Posts Section -->
+                    <div class="w-100 ps-5">
+                        <h2 class="text-white pt-4 pb-2 text-start">Recent Posts</h2>
+
+                        <!-- Cards -->
+                        <div class="row px-2">
+                            <!-- Card 1 -->
+
+                            <div class="col-12 mb-4">
+                                <div
+                                  class="news-card hover-card d-flex align-items-start recent-posts-cards"
+                                  data-aos="fade-up"
+                                  data-aos-duration="1000"
+                                >
+                                  <div class="col-6 d-flex align-items-stretch">
+                                    <a href="blogs-details.html">
+                                      <img
+                                        src="../Resources/img/news.png"
+                                        alt="News"
+                                        class="img-fluid"
+                                      />
+                                    </a>
+                                  </div>
+                              
+                                  <div class="col-6 p-3 d-flex flex-column justify-content-between" style="margin-top: auto;">
+                                    <div class="text-white fw-bold text-start">
+                                      <h5 class="fs-6">Power of Authenticity in Influencer Marketing.</h5>
+                                    </div>
+                              
+                                    <div class="d-flex align-items-start mb-2 text-start">
+                                      <p class="color-blog-h" style="font-size: x-small">
+                                        Lorem Ipsum ...
+                                      </p>
+                                    </div>
+                              
+                                    <!-- Row for calendar icon, date, and send icon -->
+                                    <div class="d-flex align-items-center justify-content-between mt-auto">
+                                      <div class="d-flex align-items-center">
+                                        <img
+                                          src="../Resources/img/calendar-new.png"
+                                          class="image-filter me-2"
+                                          alt="Calendar Icon"
+                                          style="width: 20px"
+                                        />
+                                        <p class="color-text mb-0" style="font-size: 0.8rem">
+                                          May 19, 2024
+                                        </p>
+                                      </div>
+                                      <a href="#" class="text-white ps-4 pt-1 send-img">
+                                        <img
+                                          src="../Resources/img/send.png"
+                                          alt="Send Icon"
+                                          class="img-fluid"
+                                          style="width: 20px; margin-top: auto"
+                                        />
+                                      </a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            
+                          
+                              <div class="col-12 mb-4">
+                                <div
+                                  class="news-card hover-card d-flex align-items-start recent-posts-cards"
+                                  data-aos="fade-up"
+                                  data-aos-duration="1000"
+                                >
+                                  <div class="col-6 d-flex align-items-stretch">
+                                    <a href="blogs-details.html">
+                                      <img
+                                        src="../Resources/img/news.png"
+                                        alt="News"
+                                        class="img-fluid"
+                                      />
+                                    </a>
+                                  </div>
+                              
+                                  <div class="col-6 p-3 d-flex flex-column justify-content-between" style="margin-top: auto;">
+                                    <div class="text-white fw-bold text-start">
+                                      <h5 class="fs-6">Power of Authenticity in Influencer Marketing.</h5>
+                                    </div>
+                              
+                                    <div class="d-flex align-items-start mb-2 text-start">
+                                      <p class="color-blog-h" style="font-size: x-small">
+                                        Lorem Ipsum ...
+                                      </p>
+                                    </div>
+                              
+                                    <!-- Row for calendar icon, date, and send icon -->
+                                    <div class="d-flex align-items-center justify-content-between mt-auto">
+                                      <div class="d-flex align-items-center">
+                                        <img
+                                          src="../Resources/img/calendar-new.png"
+                                          class="image-filter me-2"
+                                          alt="Calendar Icon"
+                                          style="width: 20px"
+                                        />
+                                        <p class="color-text mb-0" style="font-size: 0.8rem">
+                                          May 19, 2024
+                                        </p>
+                                      </div>
+                                      <a href="#" class="text-white ps-4 pt-1 send-img">
+                                        <img
+                                          src="../Resources/img/send.png"
+                                          alt="Send Icon"
+                                          class="img-fluid"
+                                          style="width: 20px; margin-top: auto"
+                                        />
+                                      </a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            <!-- Card 2 -->
+                            <div class="col-12 mb-4">
+                                <div
+                                  class="news-card hover-card d-flex align-items-start recent-posts-cards"
+                                  data-aos="fade-up"
+                                  data-aos-duration="1000"
+                                >
+                                  <div class="col-6 d-flex align-items-stretch">
+                                    <a href="blogs-details.html">
+                                      <img
+                                        src="../Resources/img/news.png"
+                                        alt="News"
+                                        class="img-fluid"
+                                      />
+                                    </a>
+                                  </div>
+                              
+                                  <div class="col-6 p-3 d-flex flex-column justify-content-between" style="margin-top: auto;">
+                                    <div class="text-white fw-bold text-start">
+                                      <h5 class="fs-6">Power of Authenticity in Influencer Marketing.</h5>
+                                    </div>
+                              
+                                    <div class="d-flex align-items-start mb-2 text-start">
+                                      <p class="color-blog-h" style="font-size: x-small">
+                                        Lorem Ipsum ...
+                                      </p>
+                                    </div>
+                              
+                                    <!-- Row for calendar icon, date, and send icon -->
+                                    <div class="d-flex align-items-center justify-content-between mt-auto">
+                                      <div class="d-flex align-items-center">
+                                        <img
+                                          src="../Resources/img/calendar-new.png"
+                                          class="image-filter me-2"
+                                          alt="Calendar Icon"
+                                          style="width: 20px"
+                                        />
+                                        <p class="color-text mb-0" style="font-size: 0.8rem">
+                                          May 19, 2024
+                                        </p>
+                                      </div>
+                                      <a href="#" class="text-white ps-4 pt-1 send-img">
+                                        <img
+                                          src="../Resources/img/send.png"
+                                          alt="Send Icon"
+                                          class="img-fluid"
+                                          style="width: 20px; margin-top: auto"
+                                        />
+                                      </a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                            <!-- Card 3 -->
+                            
+                            <div class="col-12 mb-4">
+                                <div
+                                  class="news-card hover-card d-flex align-items-start recent-posts-cards"
+                                  data-aos="fade-up"
+                                  data-aos-duration="1000"
+                                >
+                                  <div class="col-6 d-flex align-items-stretch">
+                                    <a href="blogs-details.html">
+                                      <img
+                                        src="../Resources/img/news.png"
+                                        alt="News"
+                                        class="img-fluid"
+                                      />
+                                    </a>
+                                  </div>
+                              
+                                  <div class="col-6 p-3 d-flex flex-column justify-content-between" style="margin-top: auto;">
+                                    <div class="text-white fw-bold text-start">
+                                      <h5 class="fs-6">Power of Authenticity in Influencer Marketing.</h5>
+                                    </div>
+                              
+                                    <div class="d-flex align-items-start mb-2 text-start">
+                                      <p class="color-blog-h" style="font-size: x-small">
+                                        Lorem Ipsum ...
+                                      </p>
+                                    </div>
+                              
+                                    <!-- Row for calendar icon, date, and send icon -->
+                                    <div class="d-flex align-items-center justify-content-between mt-auto">
+                                      <div class="d-flex align-items-center">
+                                        <img
+                                          src="../Resources/img/calendar-new.png"
+                                          class="image-filter me-2"
+                                          alt="Calendar Icon"
+                                          style="width: 20px"
+                                        />
+                                        <p class="color-text mb-0" style="font-size: 0.8rem">
+                                          May 19, 2024
+                                        </p>
+                                      </div>
+                                      <a href="#" class="text-white ps-4 pt-1 send-img">
+                                        <img
+                                          src="../Resources/img/send.png"
+                                          alt="Send Icon"
+                                          class="img-fluid"
+                                          style="width: 20px; margin-top: auto"
+                                        />
+                                      </a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            <!-- Card 4 -->
+                          
+                            <div class="col-12 mb-4">
+                                <div
+                                  class="news-card hover-card d-flex align-items-start recent-posts-cards"
+                                  data-aos="fade-up"
+                                  data-aos-duration="1000"
+                                >
+                                  <div class="col-6 d-flex align-items-stretch">
+                                    <a href="blogs-details.html">
+                                      <img
+                                        src="../Resources/img/news.png"
+                                        alt="News"
+                                        class="img-fluid"
+                                      />
+                                    </a>
+                                  </div>
+                              
+                                  <div class="col-6 p-3 d-flex flex-column justify-content-between" style="margin-top: auto;">
+                                    <div class="text-white fw-bold text-start">
+                                      <h5 class="fs-6">Power of Authenticity in Influencer Marketing.</h5>
+                                    </div>
+                              
+                                    <div class="d-flex align-items-start mb-2 text-start">
+                                      <p class="color-blog-h" style="font-size: x-small">
+                                        Lorem Ipsum ...
+                                      </p>
+                                    </div>
+                              
+                                    <!-- Row for calendar icon, date, and send icon -->
+                                    <div class="d-flex align-items-center justify-content-between mt-auto">
+                                      <div class="d-flex align-items-center">
+                                        <img
+                                          src="../Resources/img/calendar-new.png"
+                                          class="image-filter me-2"
+                                          alt="Calendar Icon"
+                                          style="width: 20px"
+                                        />
+                                        <p class="color-text mb-0" style="font-size: 0.8rem">
+                                          May 19, 2024
+                                        </p>
+                                      </div>
+                                      <a href="#" class="text-white ps-4 pt-1 send-img">
+                                        <img
+                                          src="../Resources/img/send.png"
+                                          alt="Send Icon"
+                                          class="img-fluid"
+                                          style="width: 20px; margin-top: auto"
+                                        />
+                                      </a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            
+                              <div class="col-12 mb-4">
+                                <div
+                                  class="news-card hover-card d-flex align-items-start recent-posts-cards"
+                                  data-aos="fade-up"
+                                  data-aos-duration="1000"
+                                >
+                                  <div class="col-6 d-flex align-items-stretch">
+                                    <a href="blogs-details.html">
+                                      <img
+                                        src="../Resources/img/news.png"
+                                        alt="News"
+                                        class="img-fluid"
+                                      />
+                                    </a>
+                                  </div>
+                              
+                                  <div class="col-6 p-3 d-flex flex-column justify-content-between" style="margin-top: auto;">
+                                    <div class="text-white fw-bold text-start">
+                                      <h5 class="fs-6">Power of Authenticity in Influencer Marketing.</h5>
+                                    </div>
+                              
+                                    <div class="d-flex align-items-start mb-2 text-start">
+                                      <p class="color-blog-h" style="font-size: x-small">
+                                        Lorem Ipsum ...
+                                      </p>
+                                    </div>
+                              
+                                    <!-- Row for calendar icon, date, and send icon -->
+                                    <div class="d-flex align-items-center justify-content-between mt-auto">
+                                      <div class="d-flex align-items-center">
+                                        <img
+                                          src="../Resources/img/calendar-new.png"
+                                          class="image-filter me-2"
+                                          alt="Calendar Icon"
+                                          style="width: 20px"
+                                        />
+                                        <p class="color-text mb-0" style="font-size: 0.8rem">
+                                          May 19, 2024
+                                        </p>
+                                      </div>
+                                      <a href="#" class="text-white ps-4 pt-1 send-img">
+                                        <img
+                                          src="../Resources/img/send.png"
+                                          alt="Send Icon"
+                                          class="img-fluid"
+                                          style="width: 20px; margin-top: auto"
+                                        />
+                                      </a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            <!-- Add more cards as needed -->
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-------------------Posts---------------------->
+
+
+    <section id="post-section">
+
+
+        <div class="blurred-circles-5"></div> <!-- Positioned absolutely within the navbar -->
+        <div class="container-fluid p-5">
+
+            <!-- Additional content section -->
+            <div class="row">
+
+                <div class="col-md-12 text-white bg-pink d-flex align-items-center my-3">
+                    <img src="../Resources/img/“-2.png" class="pt-5" alt="">
+                    <h3 class="py-3 ps-3">SMART PEOPLE LEARN FROM EVERYTHING AND EVERYONE, AVERAGE PEOPLE FROM THEIR
+                        EXPERIENCES, STUPID PEOPLE ALREADY HAVE ALL THE ANSWERS.</h3>
+
+
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="color-blog-h py-3 fs-5 ">
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                        printer took a galley of type and scrambled it to make a type specimen book. It has survived not
+                        only five centuries, but also the leap into electronic typesetting, remaining essentially
+                        unchanged. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                        unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                        survived not only five centuries, but also the leap into electronic typesetting, remaining
+                        essentially unchanged. Lorem Ipsum has been the industry's standard dummy text ever since the
+                        1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                        book. It has survived not only five centuries, but also the leap into electronic typesetting,
+                        remaining essentially unchanged.
+                    </p>
+
+                    <h3 class="text-white">A checklist to improve your daily routine</h3>
+
+                    <p class="color-blog-h pt-3 pb-1">
+                        Pug twee fam pour-over seitan single-origin coffee crucifix blue bottle aesthetic flexitarian.
+                        Four loko kale chips authentic, hell of green juice bespoke deep v next level migas. Woke
+                        bushwick prism live-edge austin tote bag.
+                    </p>
+
+                    <p class="color-blog-h fs-5 ">• &nbsp;&nbsp;Polaroid artisan tattooed, kale chips cloud bread
+                        crucifix yuccie irony.</p>
+                    <p class="color-blog-h fs-5 ">• &nbsp;&nbsp;Glossier offal brooklyn typewriter VHS cred gentrify.
+                    </p>
+                    <p class="color-blog-h fs-5 ">• &nbsp;&nbsp;Fashion axe pabst microdosing, locavore cornhole craft
+                        beer authentic hoodie.</p>
+                    <p class="color-blog-h fs-5 ">• &nbsp;&nbsp;Craft beer deep v man bun waistcoat tousled tattooed.
+                    </p>
+                    <p class="color-blog-h fs-5 ">• &nbsp;&nbsp;Direct trade green juice portland crucifix.</p>
+
+                    <p class="color-blog-h pb-5 fs-5 ">
+                        Post-ironic sriracha 8-bit vice hashtag raw denim offal humblebrag. Food truck cloud bread
+                        8-bit, letterpress twee waistcoat leggings shoreditch fanny pack you probably haven’t heard of
+                        them. Gluten-free four loko twee pork belly brooklyn. Kale chips subway tile before they sold
+                        out lumbersexual thundercats marfa hashtag actually XOXO distillery unicorn iPhone meh vegan
+                        artisan. Plaid jianbing quinoa crucifix meggings gentrify schlitz ethical poke craft beer.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!----------------Contact Us------------------->
+    <div class="container-fluid">
+        <div class="row pb-5">
+            <h2 class="display-6 text-white ps-lg-5 ps-4">Leave a Reply</h2>
+            <form action="#" class="row g-4 ps-lg-5">
+
+                <div class="form-group col-lg-12 pb-2">
+                    <p class="text-light small mb-1">Your Comment</p>
+                    <textarea name="message" rows="5" class="form-control p-4 no-background color-blog-h none-border"
+                        placeholder="Write your message"></textarea>
+                </div>
+
+                <div class="form-group col-lg-6">
+                    <p class="text-light small mb-1">Your name</p>
+                    <input type="text" class="form-control p-3 no-background color-blog-h none-border"
+                        placeholder="Enter your full name">
+                </div>
+                <div class="form-group col-lg-6">
+                    <p class="text-light small mb-1">Your email</p>
+                    <input type="email" class="form-control p-3 no-background color-blog-h none-border"
+                        placeholder="Enter your email address">
+                </div>
+                <div class="form-group col-lg-6">
+                    <p class="text-light small mb-1">Website</p>
+                    <input type="text" class="form-control p-3 no-background color-blog-h none-border"
+                        placeholder="Enter your Website URL">
+                </div>
+                <div class="form-group col-lg-6">
+                    <p class="text-light small mb-1">Your Contact Number</p>
+                    <input type="text" class="form-control p-3 no-background color-blog-h none-border"
+                        placeholder="Enter your contact number">
+                </div>
+
+                <div class="form-group col-lg-3 d-grid">
+                    <button class="btn bg-pink-button text-white text-md-center p-3 no-outline hover-sign-btn"
+                        type="submit" style="border-radius: 30px;">
+                        <span class="small">Post Comment</span>
+                    </button>
+                </div>
+            </form> <!-- Added missing closing tag -->
+        </div> <!-- Closing div for .row -->
+
+
+    </div> <!-- Closing div for .container-fluid -->
+
+
+
+    <!----------------Footer------------------->
+    <section id="footer-section" class="position-relative " style="overflow: hidden;">
+        <div class="container-fluid p-5">
+            <div class="row pb-5 d-flex align-items-center pt-5">
+                <!-- Logo Column -->
+                <div class="col-md-3 d-flex align-items-center" id="logo">
+                    <a href="main-design.html" class="text-decoration-none">
+                        <h1 class="text-start fw-bolder text-white mb-0 hover-navbar">LOGO</h1>
+                    </a>
+                </div>
+
+                <!-- Navigation Links Column -->
+                <div class="col-md-6 text-center d-flex justify-content-center">
+                    <a href="faq.html" class="text-white small text-decoration-none px-4 hover-navbar">Resources</a>
+                    <a href="Services.html" class="text-white small text-decoration-none px-4 hover-navbar">Solution</a>
+                    <a href="Services.html" class="text-white small text-decoration-none px-4 hover-navbar">Products</a>
+                    <a href="Services.html" class="text-white small text-decoration-none px-4 hover-navbar">Platform</a>
+                </div>
+
+                <!-- Social Media Icons Column -->
+                <div class="col-md-3 d-flex justify-content-end align-items-center" id="social-media">
+                    <a href="#" class="text-light mx-2 small social-icon"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-light mx-2 small social-icon"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="text-light mx-2 small social-icon"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="text-light mx-2 small social-icon"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+
+            <hr class="color-blog-text ">
+
+            <div class="row pt-3">
+                <div class="col-md-12 d-flex justify-content-center align-items-center">
+                    <p class="mb-0 small color-blog-text px-3 text-decoration-none">&copy; 2023 SLAB, All rights
+                        reserved</p>
+                    <a href="policy.html" class="color-blog-text px-3 text-decoration-none small hover-white">Privacy Policy</a>
+                    <a href="terms.html" class="color-blog-text px-3 text-decoration-none small hover-white">Terms of Service</a>
+                    <a href="policy.html" class="color-blog-text px-3 text-decoration-none small hover-white">Cookies Settings</a>
+                </div>
+            </div>
+            <img src="../Resources/img/footer-blur.png" class="position-absolute bottom-0 start-50 d-none d-md-block"
+                style="filter: blur(100px); z-index: -1; height: 55px; width:1100px; transform: translateX(-50%);">
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+    <script src="../js/main-design.js"></script>
+
+</body>
+
+</html>
