@@ -7,14 +7,17 @@ FAQ, and blog, and includes authentication pages (sign in / sign up).
 
 ## Screenshots
 
-### Hero Banner
-![Hero Banner](screenshots/hero-section.png)
+### Features & Services Cards
+![Features & Services Cards](screenshots/features-cards-section.png)
 
-### FAQ & Blog Sections
-![FAQ & Blog](screenshots/faq-blog-section.png)
+### Blog Section
+![Blog Section](screenshots/blog-section.png)
 
-### Sign In Page
-![Sign In](screenshots/sign-in-page.png)
+### Blog Details
+![Blog Details](screenshots/blog-details-page.png)
+
+### Sign Up Page
+![Sign Up](screenshots/sign-up-page.png)
 
 ## Features
 
