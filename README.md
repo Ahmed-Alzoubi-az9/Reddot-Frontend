@@ -1,11 +1,11 @@
-# Reddot
+# RedDot — Responsive Multi-Page Consultancy Website
 
-A responsive, multi-page business landing page for a consultancy brand
-("Streamlined Operations — Maximized Revenue"), built during university
-training from a provided Figma design. It showcases services, about, features,
-FAQ, and blog, and includes authentication pages (sign in / sign up).
+A responsive, multi-page consultancy website built with HTML, CSS, JavaScript, and Bootstrap 5 during university training, based on a provided Figma design. The project includes service and business information pages, a blog with a dedicated details page, FAQ, and authentication interfaces.
 
 ## Screenshots
+
+### Home Page
+![Home Page](screenshots/home-page.png)
 
 ### Features & Services Cards
 ![Features & Services Cards](screenshots/features-cards-section.png)
@@ -21,14 +21,15 @@ FAQ, and blog, and includes authentication pages (sign in / sign up).
 
 ## Features
 
-- Fixed navbar with scroll effect, responsive collapse, and Log In / Sign Up buttons
+- Fixed navbar that changes on scroll, with responsive collapse and Log In / Sign Up buttons
 - Hero section with bold display headlines and imagery
-- About and feature-cards sections with statistics
-- Brand carousel (news ticker)
+- About section with a statistics display and feature-card sections with chart imagery
+- Auto-playing brand ticker carousel of partner logos
 - FAQ accordion with animated arrows
-- Blog preview section with dedicated details page
-- Dedicated pages: Services, Contact, FAQ, Policy, Terms
-- Sign in / sign up pages (two design variants each)
+- Blog preview section with a blog list page and a dedicated blog details page
+- Dedicated pages: Services, FAQ, Policy, Terms, Contact Us
+- Sign in and sign up pages, each with an additional (v2) version
+- Password show/hide toggle on authentication forms
 - AOS scroll animations
 - Footer with logo, social links, and decorative blur effects
 
@@ -39,10 +40,8 @@ FAQ, and blog, and includes authentication pages (sign in / sign up).
 - JavaScript
 - Bootstrap 5
 - jQuery
-- Swiper
 - AOS
 - Owl Carousel
-- Fancybox
 - Font Awesome + Bootstrap Icons
 
 ## Project Structure
@@ -58,8 +57,4 @@ README.md
 
 ## Notes
 
-> **Note:** This is a university training project recreating a provided Figma
-> design for learning purposes only — practicing responsive layouts, Bootstrap 5
-> components, navbar/scroll effects, FAQ accordions, carousels, AOS animations,
-> and multi-page frontend structure. All credit for the original design belongs
-> to its respective authors.
+> **Note:** This project was developed during university training by recreating a provided Figma design for learning purposes. It demonstrates practice with responsive layouts, Bootstrap 5, interactive UI components, animations, carousels, and multi-page frontend development. Credit for the original design belongs to its respective authors.
